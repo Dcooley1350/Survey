@@ -1,0 +1,10 @@
+body {
+  background-color: lightsalmon;
+}
+.jumbotron {
+  background-color: darkcyan;
+  color: whitesmoke;
+}
+#return-info {
+  display: none
+}

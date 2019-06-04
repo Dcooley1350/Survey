@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Fill in this survey for a chance to win!</h1>
+      </div>
+      <div id="blank-form">
+        <form>
+          <div class="form-group">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="age">How old you be?</label>
+            <input id="age" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="born">Date of Birth:</label>
+            <input id="born" class="form-control" type="date">
+          </div>
+          <div class="form-group">
+            <label for="color">What's your favorite color?</label>
+            <input id="color" name="color" class="form-control" type="color">
+          </div>
+          <div class="form-group">
+            <label for="music">What is your favorite genre of music?</label>
+            <input id="music" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="food">What is your favorite food?</label>
+            <input id="food" class="form-control" type="text">
+          </div>
+          <label for="season">What is your favorite season?</label>
+          <select class="form-control" id="season">
+            <option>Winter.</option>
+            <option>Spring</option>
+            <option>Summer.</option>
+            <option>Fall.</option>
+          </select>
+          <span id="radioHeader">What is your favorite icecream flavor?</span>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="chocolate" checked>
+              Chocolate
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Vanilla" checked>
+              Vanilla
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="flavor" value="Strawberry" checked>
+              Strawberry
+            </label>
+          </div>
+          <button type="submit" class="btn">Submit Survey.</button>
+        </form>
+      </div>
+      <div id="return-info">
+        <h1>Thank you for your submission!</h1>
+        <h3>You have entered:</h3>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
