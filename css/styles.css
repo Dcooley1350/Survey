@@ -8,3 +8,14 @@ body {
 #return-info {
   display: none
 }
+#radioHeader {
+  font-weight: 700;
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 20px;
+  max-width: 100%;
+  margin-bottom: 5px;
+  margin-top: 5px
+}
